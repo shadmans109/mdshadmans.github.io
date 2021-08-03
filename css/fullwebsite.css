@@ -13,3 +13,26 @@ body{
 .navbar-container{
     background-color: #0D1B36;
 }
+.about-container{
+    background-color: #059862;
+}
+.education-container{
+    background-color: #FFF4A3;
+
+}
+.bg-redtype{
+    background-color: orange;
+}
+.redtype-color{
+    color: orangered;
+}
+.circle{
+    background-color: orchid;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+.project-container{
+    background-color: darkturquoise;
+}
