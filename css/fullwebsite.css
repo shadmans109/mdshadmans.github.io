@@ -2,6 +2,7 @@ body{
     font-family: 'Style Script', cursive;
     
     
+    
 }
 .bannercontainer{
     background-color: #D9EEE1;
@@ -12,16 +13,21 @@ body{
 }
 .navbar-container{
     background-color: #0D1B36;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
+
+
 .about-container{
     background-color: #059862;
 }
-.education-container{
-    background-color: #FFF4A3;
-
-}
 .bg-redtype{
     background-color: orange;
+}
+.bg-redtype:hover{
+    color: black!important;
+    
 }
 .redtype-color{
     color: orangered;
@@ -35,4 +41,26 @@ body{
 }
 .project-container{
     background-color: darkturquoise;
+}
+.form-container{
+    background-color: #0D1B36;
+}
+.inner-form{
+    background-color: #0D1B36;
+}
+.footer{
+    background-color: #96D4D4;
+}
+.circle-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: turquoise;
+}
+.circle-1:hover{
+    background-color: #0D1B36;
 }
